@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "eslint.validate": [],
+    "eslint.useFlatConfig": true,
+    "eslint.lintTask.options": "./src",
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "eslint.lintTask.enable": false,
+    "editor.formatOnSave": true,
+    "search.exclude": {
+      "**/node_modules": true,
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    }
+  },
+}

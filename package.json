@@ -1,0 +1,28 @@
+{
+  "name": "lottie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lottieToFrames": "node scripts/lottieToFrames.mjs",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "fs-extra": "^11.3.0",
+    "globals": "^16.3.0",
+    "puppeteer-lottie": "^1.1.2",
+    "vite": "^7.0.3"
+  },
+  "dependencies": {
+    "@lottiefiles/dotlottie-web": "^0.47.0",
+    "phaser": "^3.90.0"
+  }
+}
