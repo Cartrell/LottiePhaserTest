@@ -1,5 +1,5 @@
 import { DotLottie } from '@lottiefiles/dotlottie-web';
-import CreatePhaserGame from './game/main';
+import CreatePhaserGame from './game/CreatePhaserGame';
 
 const FpsElement = document.querySelector('#fps');
 let FpsTimeMs = 0;
